@@ -4,10 +4,10 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 8
+			"revision" : 7
 		}
 ,
-		"rect" : [ 120.0, 44.0, 1259.0, 951.0 ],
+		"rect" : [ 21.0, 44.0, 1383.0, 819.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -34,9 +34,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 4,
 					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 1074.166748, 662.0, 79.0, 21.0 ],
-					"presentation_rect" : [ 1073.0, 660.0, 0.0, 0.0 ],
 					"text" : "MTXvoice~"
 				}
 
@@ -49,13 +48,13 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
+					"outlettype" : [ "" ],
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 8
+							"revision" : 7
 						}
 ,
 						"rect" : [ 69.0, 69.0, 640.0, 480.0 ],
@@ -527,7 +526,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 1,
-									"outlettype" : [ "signal" ],
+									"outlettype" : [ "" ],
 									"patching_rect" : [ 246.5, 317.0, 60.0, 17.0 ],
 									"text" : "bandedWG~"
 								}
@@ -897,7 +896,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 4,
 					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 891.0, 662.0, 79.0, 21.0 ],
 					"text" : "MTXvoice~"
 				}
@@ -911,7 +910,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 194.0, 162.0, 336.0, 53.0 ],
+					"patching_rect" : [ -9.052002, 480.0, 336.0, 53.0 ],
 					"presentation_rect" : [ 238.0, 587.0, 336.0, 53.0 ]
 				}
 
@@ -1164,7 +1163,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 8
+							"revision" : 7
 						}
 ,
 						"rect" : [ 69.0, 69.0, 640.0, 480.0 ],
@@ -1195,9 +1194,9 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 380.500031, 284.5, 44.999985, 20.0 ],
+									"patching_rect" : [ 380.500031, 284.5, 44.999985, 21.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 110.764923, 177.5, 44.999985, 20.0 ],
+									"presentation_rect" : [ 110.764923, 177.5, 44.999985, 21.0 ],
 									"text" : "länge\n"
 								}
 
@@ -1631,7 +1630,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 8
+							"revision" : 7
 						}
 ,
 						"rect" : [ 480.0, 100.0, 1041.0, 681.0 ],
@@ -2216,7 +2215,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 4,
 					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 745.0, 662.0, 79.0, 21.0 ],
 					"text" : "MTXvoice~"
 				}
@@ -2399,7 +2398,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 4,
 					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 608.0, 662.0, 79.0, 21.0 ],
 					"text" : "MTXvoice~"
 				}
@@ -2413,7 +2412,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 4,
 					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 471.0, 662.0, 74.0, 21.0 ],
 					"text" : "MTXvoice~"
 				}
@@ -3335,40 +3334,11 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "MTXvoice~.pat",
-				"bootpath" : "/Applications/Max6/ownStuff/venetia/MTX_synth",
-				"patcherrelativepath" : "../../../../../../Applications/Max6/ownStuff/venetia/MTX_synth",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "simpleFM~.maxpat",
-				"bootpath" : "/Applications/Max6/patches/docs/tutorial-patchers/msp-tut",
-				"patcherrelativepath" : "../../../../../../Applications/Max6/patches/docs/tutorial-patchers/msp-tut",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "CleverBend.pat",
-				"bootpath" : "/Applications/Max6/ownStuff/venetia/MTX_synth",
-				"patcherrelativepath" : "../../../../../../Applications/Max6/ownStuff/venetia/MTX_synth",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "helpargs.js",
 				"bootpath" : "/Applications/Max6/Cycling '74/help-resources",
-				"patcherrelativepath" : "../../../../../../Applications/Max6/Cycling '74/help-resources",
+				"patcherrelativepath" : "../../../../../../../../Applications/Max6/Cycling '74/help-resources",
 				"type" : "TEXT",
 				"implicit" : 1
-			}
-, 			{
-				"name" : "microtuner.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "bandedWG~.mxo",
-				"type" : "iLaX"
 			}
  ]
 	}
