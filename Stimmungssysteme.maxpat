@@ -910,7 +910,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 967.947998, 403.0, 336.0, 53.0 ],
+					"patching_rect" : [ 1088.947998, 13.0, 336.0, 53.0 ],
 					"presentation_rect" : [ 238.0, 587.0, 336.0, 53.0 ]
 				}
 
